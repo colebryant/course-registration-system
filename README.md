@@ -1,17 +1,17 @@
-Course Registration System
+### Course Registration System
 
 A mock university course registration system built with a focus on 
 object oriented principles and object oriented design patterns.
 This project is written in Python, and the required Python packages to be 
 installed are ```mysql``` and ```pymongo```.
 
-Design Patterns Used in Project:
+### Design Patterns Used in Project:
 - Singleton - Used for database connections as well as repository classes
 - Facade - Used for streamlining interaction of client with core system
 - Strategy - Used for dynamically switching registration algorithm between
 registering in section, registering in lab, or rescheduling lab
 
-Database Setup:
+### Database Setup:
 
 - A MySQL database is utilized for populating system data as well as
 maintaining data permanence for the system. To set up, run the included
@@ -29,7 +29,7 @@ system. The system is connecting to a database called "RegistrationLogging"
   run command ```use RegistrationLogging``` followed by command 
   ```db.createCollection("logging")``` in the mongo shell.
 
-Usage Notes:
+### Usage Notes:
 
 - Once the databases have been set up, run command ```python client.py``` in the
 src directory to start the program. The client is implemented as a simple 
