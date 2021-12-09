@@ -1,4 +1,4 @@
-### Course Registration System
+# Course Registration System
 
 A mock university course registration system built with a focus on 
 object oriented principles and object oriented design patterns.
